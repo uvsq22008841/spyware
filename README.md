@@ -62,10 +62,15 @@ Pour exécuter le script Python, suivez ces étapes :
      python final.py
      ```
 
-6. **Vérifiez l'exécution** :
-   - Le script devrait démarrer en arrière-plan. Vous pouvez vérifier que les captures d'écran et les journaux sont créés dans le dossier spécifié.
+## Instructions pour créer un fichier .exe
 
-7. **Arrêt du script** :
-   - Pour arrêter le script, vous pouvez simplement fermer la fenêtre du terminal ou utiliser `Ctrl + C`.
+1. **Téléchargez le fichier `finalexe.py`**.
+
+2. **Accédez au dossier contenant `finalexe.py`**. Vous pouvez utiliser l'explorateur de fichiers ou la ligne de commande pour naviguer jusqu'à ce dossier.
+
+3. **Exécutez la commande suivante pour créer le fichier .exe** :
+   ```bash
+   pyinstaller --noconsole --onefile finalexe.py
+
 
 
